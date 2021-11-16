@@ -1,6 +1,11 @@
-# Desarrollo Blockchain
+# Desarrollo Blockchain | Solidity
 
-# Blockchain
+Herramientas utilizadas:
+
+* Remix (Herramienta para comenzar con Solidity, simula transacciones) => https://remix.ethereum.org/#appVersion=0.7.7&optimize=false&version=soljson-v0.4.24+commit.e67f0147.js
+* VS Code
+
+## Blockchain
 
 Inventado por Satoshi Najamoto en 2008, creador del Bitcoin, planteado como una red P2P para crear transacciones digitales. Es un libro mayor de transacciones almacenado en bloques (Ledger). Se puede escribir, pero no editar ni eliminar.
 
@@ -48,7 +53,7 @@ Estan los Usuarios, Developers y Mineros.
 * En BTC es de 10 minutos, y ETH 15 segundos. (2021)
 * Cada bloque sube su dificultad, o la baja, dependiendo de la tardanza en resolver el problema de bloques anteriores.
 
-## Criptografia en Blockchain - Hashing
+### Criptografia en Blockchain - Hashing
 
 * Hashing = Convierte un texto a un hash de longitud fija. Para un mismo texto se obtiene el mismo hash, y si se cambia un bit, el hash cambia casi por completo. 
 * Los hashes no son revertibles, no se podrá volver al elemento original. Solo pueden compararse.
@@ -57,7 +62,7 @@ Estan los Usuarios, Developers y Mineros.
 * `if hash(contenido bloque + nonce) + dificultad`, el bloque es valido.
 * Los mineros ejecutan una funcion de hashing en donde proporcionan el contenido del bloque y un numero que cambia de forma random, hasta que el hash resultante sea menor a un numero de dificultad. No es facil minar un bloque tras otro, es un proceso lento, costoso y usa mucho poder computacional.
 
-# Transacciones en ETH
+## Transacciones en ETH
 
 * En Blockchain los usuarios tienen un identificador para su cuenta, en donde pueden recibir y dar divisas. Somos los unicos poseedores de las claves privadas de nuestras cuentas.
 * Las cuentas son anonimas.
@@ -66,3 +71,22 @@ Estan los Usuarios, Developers y Mineros.
 * En ETH podemos hacer transacciones de User a User y de User a Smart Contract.
 
 ### Un Bloque en ETH
+
+Algunos valores dentro de un bloque son:
+
+* Timestamp: Cuándo se genero el bloque
+* Transaccions: Listado de transacciones dentro del bloque
+* Hash: Identificador unico del bloque
+* Mined By: Direccion de ETH del minador que gano el algoritmo
+* Difficulty: El valor de dificultad del bloque para ajustar la dificultad del minado+
+* Gas Used / Gas Limit: Comisiones del bloque.
+* Nonce: Solucion que aporto el miner para resolver el puzzle matematico, es el resultado de la prueba de minado para que los miners puedan verificar su validez
+* Block reward: La cantidad de Ether que ganó el miner.
+
+### Smart Contracts con ETH
+
+**¿Qué son?**
+Un contrato es un acuerdo entre dos o mas partes donde se define que se debe hacer, como y las redes. En ETH el Smart Contract es un programa que vive en la cadena de bloques en donde todos los nodos tienen una copia, puede cumplirse de forma autonoma y de forma descentralizada.
+Especifican sus reglas usando un lenguaje de programacion, al no ser verbal/escrito, no pueden haber malos entendidos. El lenguaje es **Solidity**, muy parecido a JS.
+Una vez compilamos un Smart Contract, se convierte a ByteCode (Codigo maquina), se enviará en una transaccion en una cadena de bloques de ETH creando una instancia de este contrato.
+Todos los nodos de ETH poseen una Ethereum Virtual Machine (EVM) que puede ejecutar los Bytecode de estos Smart Contracts.
