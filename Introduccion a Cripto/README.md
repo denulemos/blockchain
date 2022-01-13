@@ -97,6 +97,53 @@ Otras Altcoin buscan mejorar algunas falencias de BTC, como el gasto de energia.
 
 Son buenas alternativas para inversores en criptomonedas que esten interesados en diversificar su cartera. Este mercado todavia no es 100% maduro, y esta impulsado por la especulacion. Hubieron casos de criptomonedas que fracasaron o fueron una simple estafa, es un mercado hecho para inversores que pueden tomar riesgos. 
 
+### Trading
 
+Trading es el acto de vender y comprar un instrumento financiero en pocos dias, o en el transcurso de uno, aprovechando los movimientos de precios, se caracteriza por el analisis tecnico que debe haber. Existe en todos los mercados financieros, desde acciones hasta criptomonedas. Es muy rentable como trabajo si se hace bien, pero se puede perder mucho dinero.
+En Binance esta la opcion de ejecutar la compra y la venta con distintas opciones a definir. 
 
+* Orden limit: Una orden con un precio limite especifico o superior, definido por nosotros. Se ejecuta si el precio de mercado alcanza este precio, cuando no hay apuro de comprar o vender, tambien cuando queremos tener mejores precios. (Limite => Precio de Compra o Venta => Cantidad que quiero comprar)
+* Orden de Mercado: Comprar o vender rapidamente al precio de mercado actual. Nos importa mas la operacion rapida que el precio, solo se debe usar cuando estoy dispuesto a pagar precios o comisiones mas altas. No se recomienda si recien empezás (Market en Binance => No puedo modificar precio => cant de dolares que estoy dispuesto a gastar)
+* Orden Stop Limit: Precio Stop que convierte la orden en una de venta y el Precio Limite. La orden de venta se convierte en una orden limitada que se ejecuta en el precio limite o mejor. Se deberia usar cuando quiero evitar perdidas significativas, tambien es util para hacer ordenes de compras. (Binance => Stop-Limit => Nivel de Stop => Nivel Limite => cant de BTC que queremos comprar)
+
+### Stablecoins
+
+Cripto diseñadas para que su precio sea estable, para ser usados como alternativa a la moneda tradicional pero con las caracteristicas de una criptomoneda. Es un puente para la gente nueva que quiere entrar a este mundo sin perder mucho.
+Estas monedas sirven hasta para pagar sueldos, sin la variacion de precios de una cripto normal o el control de una moneda Fiat (normal). Solucionan problemas de volatilidad e inflacion. 
+
+¿Que tipos de Stable hay? 
+
+* Monedas estables con garantia fiduciaria: Tether es un ejemplo (USDT), es similar a depositar dolares. Puede soportar cualquier volatilidad, ya que su garantia esta en monedas fiduciarias, como el dolar. 
+* Monedas estables con garantia criptografica: DAI es un ejemplo, y es una moneda muy prometedora por ETH, ya que su garantia es en esta. En lugar de que su garantia sea en USD es en ETH. Todo está sobre la Blockchain. Se sobregarantiza esta moneda para que pueda absorver cualquier fluctuacion de ETH. Son mas vulnerables a la inestabilidad de los precios y pueden destruirse si ETH desaparece. 
+* Monedas estables sin garantia: USD Coin (USDC). Es independiente del resto de monedas, hasta del USD y ETH. Podria sobrevivir a su caida. Es un sistema muy criticado ya que se parece a un esquema Ponzi, ya que su valor es a base de promesas de crecimiento futuro por la sumatoria de participantes. 
+
+### Wallets
+Una wallet es una interfaz en la red Blockchain que permite a los usuarios percibir, almacenar y enviar las criptomonedas. Es una billetera que puede ser de Hardware o Web. Cada billetera tiene: 
+* Seed (clave privada para acceder a la wallet, sin ella no puede acceder, y si se pierde, no tendra mas acceso)
+* Direccion (conjunto de letras y numeros que identifica a la wallet junto con su codigo QR, cada vez que se hace una solicitud se genera un codigo nuevo)
+* Transacciones (publicas y ordenadas de forma cronologica), tenencia (cuantas cripto tengo).
+
+¿Qué tan seguras son?
+
+Depende de como cada usuario administre la billetera, debe cuidarla, es lo que mas falla. Tambien esto se puede terciarizar, con esto las cripto no son nuestras, si no que terceriarizamos su tenencia, como Binance, y si quiebra, perderemos nuestras monedas. 
+
+Algunas billeteras son:
+* Argent y Mycelium: No es recomendable para tener muchas, ya que son wallets para celular, por una cuestion de seguridad.
+* MetaMask y Coinbase : Son de Desktop, y con su extension para navegador. 
+* Bitaddress: Es una billetera impresa en papel que contiene las claves privadas y las direcciones para gestionar las wallets. Ideales para fondos que no van a ser usados ni movidos en mucho tiempo
+* Wallets fisicas: Hechas especialmente para almacenar claves privadas de cripto, hecho para no necesitar internet para funcionar, es decir, son Offline.
+
+### Uso de Wallets para finanzas Descentralizadas
+
+DeFi es una excelente posibilidad para tener ganancias pasivas, reemplazando en algunas cosas al Plazo Fijo. Algunas formas de conseguir cripto son:
+
+* Prestamos: Es la mas intuitiva. Presto mis cripto que se bloquean por contratos inteligentes por una tasa de interés. Tiene bajo riesgo gracias a sus garantias.
+* Staking: Es como la caja de ahorro del banco, se usa en estos activos basados en el Proof-Of-Stake. Mientras mas cripto Stakees, mas importante es tu voto en esa red.
+* Proveedor de Liquidez: Se creo para no depender de que haya una contraparte para cuando quiero vender o comprar cripto. Depende de una pool de liquidez, y la ganancia es por participacion en esta Pool.
+* Farming: Podemos ganar dinero si ponemos nuestros tokens en estos Farming, Es como un staking pero para los que proveen liquidez. Se busca democratizar el acceso a los servicios financieros para cualquier persona y sin intermediarios. 
+
+## Conceptos
+
+* Venta Flip => Vender ETH a BTC y viceversa
+* DeFi => Finanzas Descentralizadas
 
